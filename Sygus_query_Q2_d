@@ -1,3 +1,4 @@
-(declare-var x Int)
 (declare-var result Int)
+(declare-var x Int)
+
 (constraint (= result (ite (< x 0) (- x) x)))
