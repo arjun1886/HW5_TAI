@@ -1,0 +1,3 @@
+(declare-fun f5 (Int) Int)
+(assert (forall ((x Int))
+(= (f5 x) (ite (>= x 0) (exponentiate x 2) (exponentiate x 3)))))
