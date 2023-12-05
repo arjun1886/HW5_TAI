@@ -1,0 +1,4 @@
+(declare-var result Int)
+(declare-var x Int)
+
+(constraint (= result (ite (>= x 0) (exponentiate x 3) (exponentiate x 2))))
