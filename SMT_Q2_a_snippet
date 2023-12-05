@@ -1,0 +1,5 @@
+(declare-fun f1 (Int) Int)
+(assert (forall ((x Int))
+(let ((result (f1 x)))
+(ite (>= x 0) (= result x) (= result (- x))))))
+
