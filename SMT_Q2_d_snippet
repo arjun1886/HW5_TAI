@@ -1,0 +1,3 @@
+(declare-fun f4 (Int) Int)
+(assert (forall ((x Int))
+(= (f4 x) (ite (< x 0) (- x) x))))
