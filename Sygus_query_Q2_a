@@ -1,0 +1,4 @@
+(declare-var x Int)
+(declare-var result Int)
+(constraint (implies (>= x 0) (= result x)))
+(constraint (implies (< x 0) (= result (- x))))
